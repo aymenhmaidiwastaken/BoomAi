@@ -1,0 +1,29 @@
+{
+  "name": "boomai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.3",
+    "bootstrap": "^5.3.3",
+    "clipboard": "^2.0.11",
+    "next": "14.2.3",
+    "prismjs": "^1.29.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-scroll": "^1.9.0",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.29.0",
+    "react-tooltip": "^5.26.3",
+    "sal.js": "^0.8.5",
+    "sass": "^1.71.1",
+    "slick-carousel": "^1.8.1",
+    "typed.js": "^2.1.0",
+    "venobox": "^2.1.6"
+  }
+}
