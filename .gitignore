@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+.next/
+frontend/.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env.local
+backend/.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files
+package-lock.json
+
+# Laravel
+backend/storage/*.key
+backend/storage/logs/*
+backend/bootstrap/cache/*
+
+# Misc
+*.cache
+.phpunit.result.cache
