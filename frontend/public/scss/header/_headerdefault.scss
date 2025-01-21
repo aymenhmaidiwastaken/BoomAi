@@ -1,0 +1,212 @@
+/*--------------------------
+    Header Styles  
+ --------------------------*/
+ .logo-dark {
+    display: none;
+}
+
+.header-default {
+    max-width: 100%;
+    background-color: var(--color-darker);
+    color: #fff;
+    font-size: 12px;
+    z-index: 99;
+    position: relative;
+    .logo {
+        a {
+            display: flex;
+            height: 80px;
+            line-height: 80px;
+            align-items: center;
+            img {
+                max-height: 35px;
+            }
+        }
+    }
+    
+    .header-right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &.header-relative {
+        position: relative;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: flex-end;
+        @media #{$sm-layout,$md-layout} {
+            justify-content: end;
+        }
+        .header-btn {
+            margin-left: 25px;
+            @media #{$lg-layout} {
+                margin-left: 0;
+            }
+            @media #{$sm-layout,$md-layout} {
+                display: none;
+            }
+        }
+    }
+    a ,
+    button {
+        &.btn-default {
+            @media #{$sm-layout} {
+                height: 36px;
+                line-height: 35px;
+                padding: 0 10px;
+                font-size: 12px;
+            }
+            &.btn-small {
+                @media #{$sm-layout} {
+                    height: 36px;
+                    line-height: 35px;
+                    padding: 0 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    &.header-transparent {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: auto;
+        background: transparent !important;
+        backdrop-filter: inherit;
+        padding: 10px 0;
+    }
+}
+
+
+
+.header-transparent-with-topbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 99;
+    @media #{$md-layout} {
+        position: relative;
+    }
+    @media #{$sm-layout} {
+        position: relative;
+    }
+    .header-top-bar {
+        background-color: transparent;
+        @media #{$md-layout} {
+            background-color: var(--color-darker);
+        }
+        @media #{$sm-layout} {
+            background-color: var(--color-darker);
+        }
+    }
+    .header-default {
+        background-color: transparent;
+        background-image: none;
+        @media #{$md-layout} {
+            background-color: var(--color-darker);
+        }
+        @media #{$sm-layout} {
+            background-color: var(--color-darker);
+        }
+    }
+}
+
+
+
+.hamberger-button {
+    background: var(--color-primary-alt);
+    border: 0 none;
+    color: var(--color-white);
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.header-left-align {
+    .mainmenu-nav {
+        margin-left: 30px;
+    }
+}
+
+
+
+.boom-header.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-blackest) !important;
+    width: 100%;
+    height: 80px;
+    animation: headerSticky .95s ease forwards;
+    z-index: 9;
+    padding: 0;
+}
+
+
+.boom-fluid-header {
+    .container-wrapper {
+        max-width: 1600px;
+    }
+}
+
+
+
+
+
+.mainmenu{
+    &.one-menu-item{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            a{
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            padding: 0 !important;
+            padding-left: 17px !important;
+            }
+        }
+    }
+}
+
+
+.header-round-btn{
+    @media #{$sm-layout} {
+        padding: 5px !important;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-primary);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: var(--color-white);
+        border: none;
+        font-size: var(--font-size-b1);
+    }
+} 
+
+
+
+
+@keyframes headerSticky {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

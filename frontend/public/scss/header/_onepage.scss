@@ -1,0 +1,53 @@
+/*----------------------
+    One Page Nav 
+------------------------*/
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: auto;
+    }
+}
+
+
+.mainmenu-nav.onepagenav .mainmenu > li > a {
+    position: relative;
+    padding: 0;
+}
+.mainmenu-nav.onepagenav .mainmenu li {
+    margin: 0 17px;
+}
+.mainmenu-nav.onepagenav .mainmenu > li > a::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    background: var(--color-primary);
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.mainmenu-nav.onepagenav .mainmenu > li.current > a::after {
+    width: 100%;
+    opacity: 1;
+}
+
+// Responsive Layout 
+@media #{$laptop-device} {
+    .header-default.header-center-align .header-right .header-btn {
+        margin-left: 0;
+    }
+}
+@media #{$lg-layout} {
+    .mainmenu-nav.onepagenav .mainmenu li {
+        margin: 0 7px;
+    }
+}
+
+
+
+
+
+
+
+
+

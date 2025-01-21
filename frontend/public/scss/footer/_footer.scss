@@ -1,0 +1,233 @@
+/*-----------------------
+    Footer Style Here  
+------------------------*/
+
+.logo {
+    a {
+        img {
+            max-height: 35px;
+        }
+    }
+}
+
+
+.footer-style-1 {
+    background-color: var(--color-darkest);
+    border-top: 1px solid var(--color-border);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--color-black)), to(var(--color-blacker)));
+    background-image: linear-gradient(0deg, var(--color-black), var(--color-blacker));
+    .footer-top {
+        padding: 120px 0;
+        .boom-footer-widget {
+            .text-big {
+                font-size: 21px;
+                margin-top: 30px;
+                padding-right: 13%;
+                line-height: 37px;
+                font-weight: 500;
+            }
+            .title {
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+            .subtitle {
+                font-weight: 400;
+                color: var(--color-body);
+                font-size: 16px;
+                padding-right: 31%;
+                line-height: 28px;
+                margin-bottom: 32px;
+            }
+            .inner {
+                margin-top: 13px;
+            }
+            .footer-link {
+                list-style: none;
+                padding: 0;
+                li {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    a {
+                        font-size: 14px;
+                        display: block;
+                        color: var(--color-body);
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.newsletter-form {
+    .from-group{
+        @media #{$smlg-device} {
+            display: flex;
+        }
+    }
+    input {
+        flex-grow: 1;
+        width: auto;
+        margin-right: 10px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        color: rgba(255, 255, 255, 0.50);
+        min-width: 230px;
+        @media #{$small-mobile} {
+            min-width: 200px;
+            margin-right: 10px !important;
+        }
+        ::placeholder{
+            color: rgba(255, 255, 255, 0.50);
+        }
+    }
+}
+
+.footer-style-default {
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-darkest);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--color-black)), to(var(--color-blacker)));
+    background-image: linear-gradient(0deg, var(--color-black), var(--color-blacker));
+    .footer-top {
+        padding: 100px 0;
+        padding-bottom: 70px;
+        .boom-footer-widget {
+            .text-big {
+                font-size: 21px;
+                margin-top: 30px;
+                padding-right: 13%;
+                line-height: 1.7;
+                font-weight: 500;
+                color: var(--color-body);
+                margin-bottom: 30px;
+
+                @media #{$md-layout} {
+                    font-size: 20px;
+                    padding-right: 0;
+                }
+
+                @media #{$sm-layout} {
+                    font-size: 20px;
+                    padding-right: 0;
+                }
+            }
+            .desc-text{
+                margin-top: 24px;
+                margin-bottom: 32px;
+                color: var(--color-link);
+            }
+
+            .title {
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin-bottom: 30px;
+            }
+
+            .subtitle {
+                font-weight: 500;
+                font-size: 20px;
+                padding-right: 31%;
+                line-height: 28px;
+                margin-bottom: 16px;
+                color: var(--color-heading);
+                @media #{$sm-layout} {
+                    padding-right: 0;
+                }
+            }
+
+            .inner {
+                margin-top: 13px;
+            }
+
+            .footer-link {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+
+                    a {
+                        font-size: 16px;
+                        display: inline-block;
+                        color: var(--color-link);
+                        line-height: 25px;
+                        transition: 0.3s;
+                        &:hover {
+                            color: var(--color-primary);
+
+                            &::after {
+                                width: 100%;
+                                left: 0;
+                                right: auto;
+                            }
+                        }
+                    }
+                }
+                &.contact-link{
+                    li{
+                        margin-top: 24px;
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+
+        }
+    }
+    &.variation-two {
+        border-top: 0;
+    }
+    &.no-border {
+        border-top: 0;
+    }
+}
+
+.footer-style-3{
+    background: none !important;
+    border: none !important;
+    z-index: 5;
+    .footer-top{
+        background: var(--color-blackest);
+        padding: 80px 0;
+        @media #{$sm-layout} {
+            padding: 60px 0;
+            padding-bottom: 30px;
+        }
+    }
+    .separator-animated {
+        @media #{$small-mobile} {
+            margin: 20px !important;
+        }
+    }
+    .newsletter-form{
+        input{
+            @media #{$small-mobile} {
+                margin-right: 0;
+            }
+        }
+        button{
+            padding: 0 20px;
+        }
+    }
+    .footer-link {
+        li{
+            display: flex;
+            align-items: flex-start;
+            a{
+                font-size: var(--font-size-b1);
+                line-height: var(--line-height-b1);
+            }
+            .contact-icon{
+                color: var(--color-primary);
+                margin-right: 15px;
+                margin-top: 5px;
+            }
+        }
+    }
+}

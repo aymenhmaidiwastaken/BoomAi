@@ -1,0 +1,42 @@
+
+
+/* Advance Tab Style Four  */
+
+.advance-tab-four {
+    position: relative;
+    padding: 48px;
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+
+    .advance-tab-top {
+        .description {
+            font-size: var(--font-size-b3);
+        }
+    }
+}
+
+
+
+
+.rn-info-box {
+    margin-top: 20px;
+    background-color: var(--color-extra06);
+    padding: 40px;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    .box-inner {
+        .content {
+            margin-top: 10px;
+        }
+    }
+}
+.service-thumbnail-offset-2 {
+    margin-right: -60px;
+    margin-bottom: -60px;
+    border-radius: 10px 0 10px 0;
+}
+
