@@ -1,0 +1,546 @@
+{
+  "navDashboardItem": [
+    {
+      "link": "/profile-details",
+      "text": "Profile"
+    },
+    {
+      "link": "/appearance",
+      "text": "Appearance"
+    },
+    {
+      "link": "/plans-billing",
+      "text": "Plans and Billing"
+    }
+  ],
+  "nav": [
+    {
+      "link": "/",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Home"
+    },
+    {
+      "link": "#",
+      "text": "Tools",
+      "isIcon": true,
+      "isMenu": true,
+      "dropdown": true,
+      "subItem": [
+        {
+          "link": "/text-generator",
+          "isDisable": false,
+          "title": "Text Generator",
+          "badge": ""
+        },
+        {
+          "link": "/image-generator",
+          "isDisable": false,
+          "title": "Image Generator",
+          "badge": ""
+        },
+        {
+          "link": "/code-generator",
+          "isDisable": false,
+          "title": "Code Generator",
+          "badge": ""
+        },
+        {
+          "link": "#",
+          "isDisable": true,
+          "title": "Audio Generator",
+          "badge": "Coming"
+        },
+        {
+          "link": "#",
+          "isDisable": true,
+          "title": "Website Generator",
+          "badge": "Coming"
+        }
+      ]
+    },
+    {
+      "link": "#",
+      "text": "Pages",
+      "isIcon": true,
+      "isMenu": true,
+      "megamenu": true,
+      "inner": [
+        {
+          "heading": "Inner Pages",
+          "isComing": false
+        },
+        {
+          "link": "/blog",
+          "text": "Blog",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/pricing",
+          "text": "Pricing",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/contact",
+          "text": "Contact",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/signin",
+          "text": "Sign In",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/signup",
+          "text": "Sign Up",
+          "badge": "",
+          "isComing": false
+        }
+      ],
+      "dashboard": [
+        {
+          "heading": "Dashboard",
+          "isComing": false
+        },
+        {
+          "link": "/profile-details",
+          "text": "Profile",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/appearance",
+          "text": "Appearance",
+          "badge": "",
+          "isComing": false
+        },
+        {
+          "link": "/plans-billing",
+          "text": "Plans and Billing",
+          "badge": "",
+          "isComing": false
+        }
+      ],
+      "upcoming": [
+        {
+          "heading": "Coming Soon",
+          "isComing": true
+        },
+        {
+          "link": "#",
+          "text": "Product Description",
+          "badge": "",
+          "isComing": true
+        },
+        {
+          "link": "#",
+          "text": "YouTube Video to Post",
+          "badge": "",
+          "isComing": true
+        },
+        {
+          "link": "#",
+          "text": "Grammar Check",
+          "badge": "",
+          "isComing": true
+        },
+        {
+          "link": "#",
+          "text": "Audio to Text",
+          "badge": "",
+          "isComing": true
+        },
+        {
+          "link": "#",
+          "text": "Video Script Writer",
+          "badge": "",
+          "isComing": true
+        }
+      ]
+    },
+    {
+      "link": "/pricing",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Pricing"
+    },
+    {
+      "link": "/blog",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Blog"
+    }
+  ],
+  "smallNavItem": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/text.png",
+      "text": "Text Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/photo.png",
+      "text": "Image Generator",
+      "badge": "Hot",
+      "icon": ""
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "type": "default",
+      "img": "/images/generator-icon/code-editor.png",
+      "text": "Code Generator",
+      "badge": "",
+      "icon": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "type": "default",
+      "img": "/images/generator-icon/website-design.png",
+      "text": "Website Generator",
+      "badge": "Coming",
+      "icon": ""
+    },
+    {
+      "link": "/profile-details",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Profile Details",
+      "badge": "",
+      "icon": "user"
+    },
+    {
+      "link": "/appearance",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Appearance",
+      "badge": "",
+      "icon": "home"
+    },
+    {
+      "link": "/plans-billing",
+      "isDisable": false,
+      "type": "setting",
+      "text": "Plans and Billing",
+      "badge": "",
+      "icon": "briefcase"
+    }
+  ],
+  "toolsItem": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text Generator",
+      "img": "/images/generator-icon/text_line.png",
+      "badge": "",
+      "wdt": 40
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Code Generator",
+      "img": "/images/generator-icon/code-editor_line.png",
+      "badge": "Hot",
+      "wdt": 44
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "title": "Image Generator",
+      "img": "/images/generator-icon/photo_line.png",
+      "badge": "",
+      "wdt": 36
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Lyrics Generator",
+      "img": "/images/generator-icon/lyrics_line.png",
+      "badge": "Coming",
+      "wdt": 27
+    },
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Speech to Text",
+      "img": "/images/generator-icon/voice_line.png",
+      "badge": "",
+      "wdt": 27
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Website Generator",
+      "img": "/images/generator-icon/website-design_line.png",
+      "badge": "Coming",
+      "wdt": 36
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "HTML Generator",
+      "img": "/images/generator-icon/code-editor_line.png",
+      "badge": "",
+      "wdt": 44
+    },
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text to Speech",
+      "img": "/images/generator-icon/text-voice_line.png",
+      "badge": "",
+      "wdt": 36
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Chat with Documents",
+      "img": "/images/generator-icon/document_line.png",
+      "badge": "Coming",
+      "wdt": 31
+    }
+  ],
+  "rightPanel": [
+    {
+      "today": [
+        {
+          "title": "Understanding AI Models",
+          "isActive": true,
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Landing page headline ideas",
+          "isActive": false,
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "React component refactoring",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Marketing email draft",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        }
+      ],
+      "yesterday": [
+        {
+          "title": "API endpoint design",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Database schema planning",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "JavaScript shortcut methods",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Best practices for code quality",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        }
+      ],
+      "previous": [
+        {
+          "title": "Product roadmap brainstorm",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "JavaScript functions guide",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Generate a product mockup",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "SEO content strategy",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        }
+      ],
+      "older": [
+        {
+          "title": "AI writing quick start",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Customer onboarding flow",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Dark mode implementation",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        },
+        {
+          "title": "Managing remote teams guide",
+          "list": [
+            { "icon": "refresh-cw", "text": "Regenerate" },
+            { "icon": "tag", "text": "Pin Chat" },
+            { "icon": "file-text", "text": "Rename" },
+            { "icon": "share-2", "text": "Share" },
+            { "icon": "trash-2", "text": "Delete Chat" }
+          ]
+        }
+      ]
+    }
+  ],
+  "leftPanel": [
+    {
+      "link": "/text-generator",
+      "isDisable": false,
+      "title": "Text Generator",
+      "img": "/images/generator-icon/text.png",
+      "badge": ""
+    },
+    {
+      "link": "/image-generator",
+      "isDisable": false,
+      "title": "Image Generator",
+      "img": "/images/generator-icon/photo.png",
+      "badge": "NEW"
+    },
+    {
+      "link": "/code-generator",
+      "isDisable": false,
+      "title": "Code Generator",
+      "img": "/images/generator-icon/code-editor.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": false,
+      "title": "Speech to Text",
+      "img": "/images/generator-icon/voice.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": false,
+      "title": "Text to Speech",
+      "img": "/images/generator-icon/text-voice.png",
+      "badge": ""
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Website Generator",
+      "img": "/images/generator-icon/website-design.png",
+      "badge": "Coming"
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Lyrics Generator",
+      "img": "/images/generator-icon/lyrics.png",
+      "badge": "Coming"
+    },
+    {
+      "link": "#",
+      "isDisable": true,
+      "title": "Chat with Documents",
+      "img": "/images/generator-icon/document.png",
+      "badge": "Coming"
+    }
+  ]
+}

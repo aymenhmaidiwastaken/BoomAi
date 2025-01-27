@@ -1,0 +1,61 @@
+{
+  "testimonial": [
+    {
+      "isActive": true,
+      "isBorder": true,
+      "desc": "BoomAI cut our content production time by 70%. We publish twice as much blog content now and our engagement metrics have never looked better.",
+      "name": "Sarah Chen",
+      "post": "Marketing Director",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "As a solo founder, BoomAI feels like having a full creative team. I generate landing page copy, social posts, and product images all from one place.",
+      "name": "Marcus Rivera",
+      "post": "Startup Founder",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "The code generator alone saves me hours each week. It handles boilerplate and scaffolding perfectly so I can focus on the complex architecture decisions.",
+      "name": "James Okonkwo",
+      "post": "Senior Software Engineer",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "isActive": true,
+      "desc": "We switched from three separate AI tools to BoomAI. The unified dashboard and consistent quality across text, image, and code generation is unmatched.",
+      "name": "Elena Kowalski",
+      "post": "Product Manager",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "My freelance design workflow completely transformed. I use the image generator for mood boards and concepts, then refine from there. Clients love the speed.",
+      "name": "Priya Sharma",
+      "post": "Freelance Designer",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "BoomAI helped us scale our e-commerce content without scaling our team. Product descriptions, email campaigns, and ad creatives all generated in minutes.",
+      "name": "David Park",
+      "post": "Small Business Owner",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    }
+  ]
+}

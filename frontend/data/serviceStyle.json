@@ -1,0 +1,51 @@
+{
+  "serviceOne": [
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Instant answers",
+      "desc": "Get accurate, context-aware responses to any question in real-time without searching through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Works everywhere",
+      "desc": "Access BoomAI from any device with a browser. No installs needed — your AI workspace travels with you."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Lightning-fast output",
+      "desc": "Generate complete drafts, images, and code in seconds. Iterate rapidly and ship your best work faster."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Smart suggestions",
+      "desc": "BoomAI learns from your style and preferences to deliver increasingly relevant and on-brand results over time."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Team collaboration",
+      "desc": "Share prompts, templates, and outputs with your team. Build a shared knowledge base that makes everyone more productive."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "API integration",
+      "desc": "Embed BoomAI's capabilities directly into your products and workflows with our developer-friendly REST API."
+    }
+  ],
+  "serviceTwo": [
+    {
+      "img": "/images/service/service-icon-01.png",
+      "title": "30-Day Money Back Guarantee",
+      "desc": "Try BoomAI risk-free. If it does not meet your expectations within 30 days, we will issue a full refund."
+    },
+    {
+      "img": "/images/service/service-icon-02.png",
+      "title": "Upgrade or Cancel Anytime",
+      "desc": "No long-term contracts or hidden fees. Scale your plan up or down as your needs change."
+    },
+    {
+      "img": "/images/service/service-icon-03.png",
+      "title": "Start Free, No Credit Card",
+      "desc": "Jump right in with our Starter plan. No payment information required to begin generating content."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "textGenerator": [
+    {
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "Write a compelling product description for a wireless speaker",
+      "isBorder": true,
+      "content": [
+        {
+          "img": "/images/icons/loader-one.gif",
+          "text": "Generating answers for you…",
+          "aiImg": "/images/team/avater.png",
+          "title": "BoomAI",
+          "badge": "Bot",
+          "desc2": "Here is your product description:",
+          "desc": "Introducing the SoundPulse Pro — a premium wireless speaker that fills any room with rich, immersive audio. Featuring 360-degree surround sound, 20-hour battery life, and IPX7 waterproof protection, the SoundPulse Pro is designed to keep up with your lifestyle. Pair it effortlessly with Bluetooth 5.3 for crystal-clear playback from any device. Whether you are hosting a backyard gathering or relaxing at home, experience sound the way it was meant to be heard."
+        }
+      ]
+    },
+    {
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "How does BoomAI generate text content?",
+      "isBorder": true,
+      "content": [
+        {
+          "img": "/images/icons/loader-one.gif",
+          "text": "Generating answers for you…",
+          "aiImg": "/images/team/avater.png",
+          "title": "BoomAI",
+          "badge": "Bot",
+          "desc2": "Great question! Here is how it works:",
+          "desc": "BoomAI uses advanced large language models to understand your prompts and generate high-quality text. It analyzes the context, tone, and intent behind your request, then produces content that matches your specifications. Whether you need marketing copy, blog articles, or product descriptions, BoomAI adapts its writing style to fit your brand voice and target audience."
+        }
+      ]
+    },
+    {
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "Create a short blog intro about remote work productivity",
+      "isBorder": true,
+      "content": [
+        {
+          "img": "/images/icons/loader-one.gif",
+          "text": "Generating answers for you…",
+          "aiImg": "/images/team/avater.png",
+          "title": "BoomAI",
+          "badge": "Bot",
+          "desc": "Remote work has redefined the modern workplace, but staying productive outside the office requires more than just a laptop and Wi-Fi. In this guide, we explore proven strategies that top-performing remote teams use to maintain focus, streamline communication, and deliver exceptional results — no matter where they log in from.",
+          "desc2": "Here is your blog introduction:"
+        }
+      ]
+    },
+    {
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "What types of content can BoomAI help me create?",
+      "isBorder": false,
+      "content": [
+        {
+          "img": "/images/icons/loader-one.gif",
+          "text": "Generating answers for you…",
+          "aiImg": "/images/team/avater.png",
+          "title": "BoomAI",
+          "badge": "Bot",
+          "desc2": "BoomAI supports a wide range of content formats:",
+          "desc": "BoomAI can help you create blog posts, marketing emails, social media captions, product descriptions, ad copy, technical documentation, landing page content, press releases, and much more. You can also customize the tone, length, and style to match your brand guidelines. The platform continuously learns from your preferences to deliver increasingly relevant results."
+        }
+      ]
+    }
+  ],
+  "imageGenerator": [
+    {
+      "isHead": true,
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "Generate 4 variations of a futuristic cityscape at sunset with neon lights",
+      "img": "/images/generator-img/photo-15.png",
+      "isBorder": true,
+      "content": [
+        {
+          "btn": false,
+          "img": "/images/icons/loader-one.gif",
+          "aiImg": "/images/team/avater.png",
+          "text": "Generating answers for you…",
+          "scan": "Scanning the data...",
+          "title": "Your images have been generated based on the provided prompt:",
+          "checkBox": [
+            {
+              "isCheck": true,
+              "generateImg": "/images/generator-img/photo-15.png"
+            },
+            {
+              "isCheck": false,
+              "generateImg": "/images/generator-img/photo-16.png"
+            },
+            {
+              "isCheck": false,
+              "generateImg": "/images/generator-img/photo-17.png"
+            },
+            {
+              "isCheck": false,
+              "generateImg": "/images/generator-img/photo-18.png"
+            }
+          ],
+          "tag": [
+            { "isActive": false, "text": "Custom Zoom" },
+            { "isActive": false, "text": "Vary (Subtle)" },
+            { "isActive": true, "text": "Upscale (2x)" },
+            { "isActive": false, "text": "Make Square" },
+            { "isActive": false, "text": "Zoom Out 2x" },
+            { "isActive": false, "text": "Upscale (4x)" },
+            { "isActive": false, "text": "Upscale (6x)" }
+          ]
+        }
+      ]
+    },
+    {
+      "isHead": false,
+      "author": "/images/team/team-01sm.jpg",
+      "title": "Laura Mitchell",
+      "desc": "Create a minimalist logo concept for a coffee brand called Ember Roast",
+      "content": [
+        {
+          "btn": true,
+          "img": "/images/icons/loader-one.gif",
+          "aiImg": "/images/team/avater.png",
+          "text": "Generating answers for you…",
+          "scan": "Scanning the data...",
+          "title": "Here is your upscaled result based on the selected image:",
+          "generateImg": "/images/generator-img/photo-19.png"
+        }
+      ]
+    }
+  ],
+  "accordion": [
+    {
+      "title": "What is BoomAI and how does it work?",
+      "desc": "BoomAI is an all-in-one AI content platform that generates text, images, and code from natural language prompts. Simply describe what you need, and BoomAI delivers high-quality results in seconds using advanced machine learning models.",
+      "isExpand": true
+    },
+    {
+      "title": "What types of content can I create with BoomAI?",
+      "desc": "BoomAI supports a wide variety of content types including blog posts, marketing copy, product descriptions, social media captions, AI-generated images, concept art, frontend components, API integrations, database queries, and much more.",
+      "isExpand": false
+    },
+    {
+      "title": "How often is BoomAI updated with new features?",
+      "desc": "We release updates regularly, typically on a bi-weekly cycle. Each release includes model improvements, new templates, performance enhancements, and feature additions based on user feedback. All updates are included with your active subscription at no extra cost.",
+      "isExpand": false
+    },
+    {
+      "title": "How can I reach BoomAI customer support?",
+      "desc": "You can contact our support team anytime by emailing hello@boomai.com or through the live chat widget in your dashboard. Pro and Enterprise customers receive priority support with guaranteed response times.",
+      "isExpand": false
+    },
+    {
+      "title": "Is my data safe and private with BoomAI?",
+      "desc": "Absolutely. BoomAI uses enterprise-grade AES-256 encryption for all data at rest and in transit. We never use your private content to train our models, and we are fully SOC 2 Type II compliant. You retain complete ownership of everything you generate.",
+      "isExpand": false
+    },
+    {
+      "title": "Does BoomAI support multiple languages?",
+      "desc": "Yes, BoomAI supports over 30 languages for text generation, including English, Spanish, French, German, Portuguese, Japanese, Korean, Chinese, Arabic, and many more. Image and code generation work universally regardless of language.",
+      "isExpand": false
+    }
+  ]
+}

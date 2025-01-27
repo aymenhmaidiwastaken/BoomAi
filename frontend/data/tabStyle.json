@@ -1,0 +1,91 @@
+{
+  "TabStyleOne": [
+    {
+      "title": "Transform your ideas into polished text with AI-powered writing assistance.",
+      "img": "/images/generator-img/chat-export.png",
+      "menuId": "text-generator",
+      "text": "Text Generator",
+      "target": "text-generate",
+      "iconImg": "/images/icons/text-g.png",
+      "isSelect": true,
+      "subItem": [
+        { "text": "Blog posts and articles" },
+        { "text": "Marketing copy" },
+        { "text": "Product descriptions" },
+        { "text": "Social media content" }
+      ]
+    },
+    {
+      "title": "Create stunning visuals from text prompts in seconds.",
+      "img": "/images/generator-img/chat-export-photo.png",
+      "menuId": "image-generator",
+      "text": "Image Generator",
+      "target": "image-generate",
+      "iconImg": "/images/icons/photo-g.png",
+      "isSelect": false,
+      "subItem": [
+        { "text": "Marketing visuals" },
+        { "text": "Product mockups" },
+        { "text": "Social media graphics" },
+        { "text": "Concept art" }
+      ]
+    },
+    {
+      "title": "Generate production-ready code snippets and full components.",
+      "img": "/images/generator-img/chat-export-code.png",
+      "menuId": "code-generator",
+      "text": "Code Generator",
+      "target": "code-generate",
+      "iconImg": "/images/icons/code-g.png",
+      "isSelect": false,
+      "subItem": [
+        { "text": "Frontend components" },
+        { "text": "API integrations" },
+        { "text": "Database queries" },
+        { "text": "Utility functions" }
+      ]
+    }
+  ],
+  "advanceTab": [
+    {
+      "tabId": "home",
+      "target": "home-tab",
+      "isSelect": true,
+      "menuText": "Connect with AI",
+      "img": "/images/split/split-1.png",
+      "subTitle": "How it works",
+      "title": "Start a conversation with BoomAI",
+      "desc": "Simply type your request in natural language. BoomAI understands context and delivers precise results whether you need text, images, or code."
+    },
+    {
+      "tabId": "profile",
+      "target": "profile-tab",
+      "isSelect": false,
+      "menuText": "Streamline Workflow",
+      "img": "/images/split/split-4.png",
+      "subTitle": "Boost efficiency",
+      "title": "Automate repetitive creative tasks",
+      "desc": "Save hours each week by letting BoomAI handle first drafts, boilerplate code, and visual prototypes so you can focus on what matters most."
+    },
+    {
+      "tabId": "contact",
+      "target": "contact-tab",
+      "isSelect": false,
+      "menuText": "Scale Output",
+      "img": "/images/split/split-3.png",
+      "subTitle": "Grow faster",
+      "title": "Produce more content without growing your team",
+      "desc": "Whether you need 10 blog posts or 100 product images, BoomAI scales with your needs. Consistent quality at any volume."
+    },
+    {
+      "tabId": "data",
+      "target": "data-tab",
+      "isSelect": false,
+      "menuText": "Stay Secure",
+      "img": "/images/split/split-5.png",
+      "subTitle": "Enterprise ready",
+      "title": "Built with security and privacy in mind",
+      "desc": "Your data stays yours. BoomAI uses enterprise-grade encryption and never trains on your private content. SOC 2 compliant."
+    }
+  ]
+}

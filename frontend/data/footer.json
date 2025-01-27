@@ -1,0 +1,33 @@
+{
+  "footer": [
+    {
+      "links": [
+        {
+          "title": "Quick Links",
+          "innerItem": [
+            { "link": "/blog", "text": "Blog" },
+            { "link": "/pricing", "text": "Pricing" },
+            { "link": "/contact", "text": "Contact" }
+          ]
+        }
+      ],
+      "services": [
+        {
+          "title": "Services",
+          "innerItem": [
+            { "link": "/text-generator", "text": "Text Generator" },
+            { "link": "/image-generator", "text": "Image Generator" },
+            { "link": "/code-generator", "text": "Code Generator" }
+          ]
+        }
+      ],
+      "contact": [
+        {
+          "location": "San Francisco, CA, United States",
+          "mail": "hello@boomai.com",
+          "number": "1 415-555-0199"
+        }
+      ]
+    }
+  ]
+}

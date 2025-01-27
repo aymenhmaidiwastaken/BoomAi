@@ -1,0 +1,156 @@
+{
+  "pricing": [
+    {
+      "priceId": "nav-home",
+      "priceType": "Monthly",
+      "discount": "",
+      "isSelect": false,
+      "priceBody": [
+        {
+          "id": 1,
+          "priceId": "nav-home",
+          "isSelect": false,
+          "isShow": false,
+          "classNum": "one",
+          "subTitle": "Starter",
+          "title": "Perfect for trying out BoomAI",
+          "price": "Free",
+          "priceFor": "/Per Month",
+          "limited": "",
+          "text": "Features",
+          "iconClass": "fa-regular fa-circle-radiation",
+          "listItem": [
+            { "text": "5,000 words per month" },
+            { "text": "3 AI image generations" },
+            { "text": "Basic code snippets" },
+            { "text": "Email support" },
+            { "text": "1 user seat" }
+          ]
+        },
+        {
+          "id": 2,
+          "priceId": "nav-home",
+          "isSelect": true,
+          "isShow": true,
+          "classNum": "two",
+          "subTitle": "Pro",
+          "title": "For professionals and growing teams",
+          "price": "$29",
+          "priceFor": "/Per Month",
+          "limited": "Most Popular",
+          "text": "Features",
+          "iconClass": "fa-sharp fa-regular fa-flower",
+          "listItem": [
+            { "text": "50,000 words per month" },
+            { "text": "100 AI image generations" },
+            { "text": "Advanced code generation" },
+            { "text": "Priority support" },
+            { "text": "API access" },
+            { "text": "5 user seats" },
+            { "text": "Custom templates" }
+          ]
+        },
+        {
+          "id": 3,
+          "priceId": "nav-home",
+          "isSelect": false,
+          "isShow": true,
+          "classNum": "three",
+          "subTitle": "Enterprise",
+          "title": "For organizations that need it all",
+          "price": "$79",
+          "priceFor": "/Per Month",
+          "limited": "",
+          "text": "Features",
+          "iconClass": "fa-sharp fa-regular fa-waveform-lines",
+          "listItem": [
+            { "text": "Unlimited word generation" },
+            { "text": "Unlimited image generation" },
+            { "text": "Full code generation suite" },
+            { "text": "Dedicated account manager" },
+            { "text": "Custom API integration" },
+            { "text": "Unlimited seats" },
+            { "text": "SSO & advanced security" },
+            { "text": "SLA guarantee" }
+          ]
+        }
+      ]
+    },
+    {
+      "priceId": "nav-profile",
+      "priceType": "Yearly",
+      "discount": 10,
+      "isSelect": true,
+      "priceBody": [
+        {
+          "id": 1,
+          "priceId": "nav-profile",
+          "isSelect": false,
+          "isShow": false,
+          "classNum": "one",
+          "subTitle": "Starter",
+          "title": "Perfect for trying out BoomAI",
+          "price": "Free",
+          "priceFor": "/Per Year",
+          "limited": "",
+          "text": "Features",
+          "iconClass": "fa-regular fa-circle-radiation",
+          "listItem": [
+            { "text": "5,000 words per month" },
+            { "text": "3 AI image generations" },
+            { "text": "Basic code snippets" },
+            { "text": "Email support" },
+            { "text": "1 user seat" }
+          ]
+        },
+        {
+          "id": 2,
+          "priceId": "nav-profile",
+          "isSelect": true,
+          "isShow": true,
+          "classNum": "two",
+          "subTitle": "Pro",
+          "title": "For professionals and growing teams",
+          "price": "$249",
+          "priceFor": "/Per Year",
+          "limited": "Most Popular",
+          "text": "Features",
+          "iconClass": "fa-sharp fa-regular fa-flower",
+          "listItem": [
+            { "text": "50,000 words per month" },
+            { "text": "100 AI image generations" },
+            { "text": "Advanced code generation" },
+            { "text": "Priority support" },
+            { "text": "API access" },
+            { "text": "5 user seats" },
+            { "text": "Custom templates" }
+          ]
+        },
+        {
+          "id": 3,
+          "priceId": "nav-profile",
+          "isSelect": false,
+          "isShow": true,
+          "classNum": "three",
+          "subTitle": "Enterprise",
+          "title": "For organizations that need it all",
+          "price": "$699",
+          "priceFor": "/Per Year",
+          "limited": "",
+          "text": "Features",
+          "iconClass": "fa-sharp fa-regular fa-waveform-lines",
+          "listItem": [
+            { "text": "Unlimited word generation" },
+            { "text": "Unlimited image generation" },
+            { "text": "Full code generation suite" },
+            { "text": "Dedicated account manager" },
+            { "text": "Custom API integration" },
+            { "text": "Unlimited seats" },
+            { "text": "SSO & advanced security" },
+            { "text": "SLA guarantee" }
+          ]
+        }
+      ]
+    }
+  ]
+}

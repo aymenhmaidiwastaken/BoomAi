@@ -1,0 +1,110 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "img": "/images/blog/blog-01.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "15 Jan 2025",
+      "cate": "AI Technology",
+      "title": "How AI Is Reshaping Content Creation in 2025",
+      "desc": "Explore how generative AI tools are transforming the way businesses produce written, visual, and interactive content at scale."
+    },
+    {
+      "id": 2,
+      "img": "/images/blog/blog-02.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "28 Dec 2024",
+      "cate": "Development",
+      "title": "The Rise of Multimodal AI: Text, Image, and Code",
+      "desc": "A deep dive into platforms that combine multiple AI capabilities into unified workflows for creative professionals."
+    },
+    {
+      "id": 3,
+      "img": "/images/blog/blog-03.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "10 Dec 2024",
+      "cate": "Business",
+      "title": "Building Smarter Workflows with AI Automation",
+      "desc": "Learn practical strategies for integrating AI tools into your daily operations to reduce manual effort and boost output."
+    },
+    {
+      "id": 4,
+      "img": "/images/blog/blog-04.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "25 Nov 2024",
+      "cate": "AI Technology",
+      "title": "AI Ethics: Balancing Innovation with Responsibility",
+      "desc": "Navigating the ethical considerations of deploying AI in production environments and maintaining user trust."
+    },
+    {
+      "id": 5,
+      "img": "/images/blog/blog-05.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "12 Nov 2024",
+      "cate": "Design",
+      "title": "From Prompt to Product: Mastering AI-Driven Design",
+      "desc": "How designers are using AI image generation to accelerate ideation and deliver polished concepts faster than ever."
+    },
+    {
+      "id": 6,
+      "img": "/images/blog/blog-06.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "30 Oct 2024",
+      "cate": "Development",
+      "title": "Why Every Developer Needs an AI Coding Assistant",
+      "desc": "Discover how AI-powered code generation is changing developer productivity and what to look for in a coding assistant."
+    },
+    {
+      "id": 7,
+      "img": "/images/blog/blog-07.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "18 Oct 2024",
+      "cate": "Business",
+      "title": "The Future of AI-Powered Customer Experiences",
+      "desc": "How businesses are leveraging AI to create personalized, responsive customer journeys across every touchpoint."
+    },
+    {
+      "id": 8,
+      "img": "/images/blog/blog-08.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "05 Oct 2024",
+      "cate": "Business",
+      "title": "Scaling Your Business with Generative AI Tools",
+      "desc": "From startups to enterprises, learn how generative AI is becoming the competitive advantage teams cannot afford to ignore."
+    },
+    {
+      "id": 9,
+      "img": "/images/blog/blog-09.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "date": "22 Sep 2024",
+      "cate": "AI Technology",
+      "title": "Understanding Large Language Models: A Practical Guide",
+      "desc": "Breaking down how large language models work and practical tips for getting the most out of AI-generated text."
+    }
+  ],
+  "categories": [
+    { "name": "AI Technology", "num": 3 },
+    { "name": "Development", "num": 2 },
+    { "name": "Business", "num": 3 },
+    { "name": "Design", "num": 1 }
+  ],
+  "tags": [
+    { "name": "AI" },
+    { "name": "Machine Learning" },
+    { "name": "Content" },
+    { "name": "Automation" },
+    { "name": "Development" },
+    { "name": "Productivity" },
+    { "name": "SaaS" },
+    { "name": "Startup" }
+  ]
+}
